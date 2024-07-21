@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                     /* Specify ECMAScript target version */
+    "module": "esnext",                     /* Specify module code generation */
+    "lib": ["dom", "dom.iterable", "esnext"],/* Specify library files to be included in the compilation */
+    "jsx": "react",                         /* Enable JSX support */
+    "strict": true,                         /* Enable all strict type-checking options */
+    "esModuleInterop": true,                /* Emit additional JavaScript to ease the use of commonJS dependencies */
+    "skipLibCheck": true,                   /* Skip type checking of declaration files */
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is consistent in file names */
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/schemas/index.js"], /* Specify the paths to include in the compilation */
+  "exclude": ["node_modules"]                 /* Specify the paths to exclude from the compilation */
+}
